@@ -1,0 +1,16 @@
+---
+layout: default
+title: Catalin Codreanu
+---
+
+<div class="container">
+{% for post in site.posts %}
+	<div class="post">
+		<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<div class="content">
+			<span class="date">{{ post.date | date: "%B %d, %Y" }} &mdash;</span>
+			{{ post.content }}
+		</div>
+	</div>
+{% endfor %}
+</div>

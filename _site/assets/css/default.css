@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 32px;
+	color: #333;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: 300;
+	letter-spacing: -1px;
+}
+
+#header {
+	background: url('../img/bp.jpg');
+	text-align: center;
+	padding: 70px 0 40px 0;
+	box-shadow: inset 0 -8px 8px -8px #555;
+}
+	#header h1 {
+		margin: 0 0 10px 0;
+		font-weight: 700;
+		color: #fff;
+		text-shadow: 0 1px 0 #333;
+	}
+		#header h1 a {
+			color: #fff;
+			text-decoration: none;
+		}
+	#header p {
+		font-weight: 400;
+		color: #fff;
+		text-shadow: 0 1px 0 #333;
+	}
+
+#navigation {
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+	#navigation ul li {
+		display: inline;
+		list-style: none;
+		padding: 10px;
+	}
+	#navigation ul li a {
+		text-decoration: none;
+		color: #333;
+		border-bottom: 1px dotted #333;
+	}
+
+.container {
+	width: 720px;
+	margin: 0 auto;
+}
+
+.post .title {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.post .title a {
+	color: #333;
+	text-decoration: none;
+}
+	.post .title a:hover {
+		border-bottom: 1px dotted #333;
+	}
+.content .date {
+	color: #aaa;
+	display: inline;
+}
+.content p:first-of-type {
+	display: inline;
+}
